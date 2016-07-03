@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:padding="2dp"
+	    android:layout_height="75dp"
+	    android:orientation="horizontal"
+	    android:gravity="center"
+	    android:weightSum="100">
+	
+	    	<!-- Equipo local -->
+	        <TextView
+	            android:id="@+id/litLocal"
+	            android:layout_weight="25"
+	            android:layout_width="0dp"
+	            android:textSize="12sp"
+	       		android:layout_height="match_parent"
+	       		android:gravity="center"
+	       		android:paddingRight="4dp"
+	        />
+	        <!-- Resultado con Estado -->
+	        <LinearLayout 
+	            android:layout_height="75dp"
+	            android:layout_weight="50"
+			    android:layout_width="0dp"
+			    android:gravity="center"
+			    android:orientation="vertical">
+	        <TextView
+	            android:id="@+id/litEstadoPartido"
+	            android:layout_width="wrap_content"
+	       		android:layout_height="wrap_content"
+	       		android:textSize="10sp"
+	       		android:gravity="center"
+	       		android:paddingBottom="4dp"
+	        />
+	         <LinearLayout 
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="horizontal"
+			    android:gravity="center">
+			    
+	             
+	             <TextView
+			            android:id="@+id/litMarca"
+			            android:layout_width="wrap_content"
+			       		android:layout_height="match_parent"
+			       		android:gravity="center"
+			       		android:paddingLeft="2dp"
+			       		android:paddingRight="2dp"
+			       		android:textSize="25sp"
+       				 />
+
+	         </LinearLayout> 
+	         
+	       </LinearLayout> 
+	       
+	        <!-- Visitante -->
+	        <TextView
+	            android:id="@+id/litVis"
+	            android:layout_weight="25"
+	            android:layout_width="0dp"
+	            android:textSize="12sp"
+	        	android:layout_height="match_parent"        	
+	            android:gravity="center"
+	            android:paddingLeft="4dp"
+	        />    
+	        <!-- 
+	    <ImageView
+           	android:id="@+id/imgWeather"
+			android:layout_weight="10"
+           	android:layout_width="0dp"
+           	android:layout_height="match_parent"
+           	android:contentDescription="@string/img_favorito"
+	      	android:gravity="right|center"
+	       />
+	      
+	    <ImageView
+           	android:id="@+id/imgGmaps"
+           	android:layout_weight="10"
+           	android:layout_width="0dp"
+      		android:layout_height="match_parent"
+           	android:contentDescription="@string/img_favorito"
+      		android:gravity="right|center"
+	       />
+	       -->   	       
+</LinearLayout>
+

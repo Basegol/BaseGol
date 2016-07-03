@@ -1,0 +1,21 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+
+    <!-- <Button android:id="@+id/footer" android:layout_alignParentBottom="true"/> -->
+    <ListView 
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"/> <!-- the list -->
+         
+     <LinearLayout
+       android:orientation="horizontal"
+       android:id="@+id/ad_banner"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:gravity="bottom|center"
+       android:layout_alignParentBottom="true" />
+     	   
+</RelativeLayout>

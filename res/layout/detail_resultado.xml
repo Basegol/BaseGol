@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:gravity="center">
+	
+	    <TextView
+	        android:id="@+id/detailCatPartJornada"
+	        android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:gravity="center"
+	       	android:textColor="@color/White"
+	       	android:textStyle="bold"
+	       	android:background="@color/Black"
+	     />
+	    
+	    <TextView
+	        android:id="@+id/detailLitEstadoPartido"
+	        android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:gravity="center"
+    		android:background="@color/DarkGray"
+	     />
+
+         
+	<!-- Resultado -->	         
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:weightSum="100">
+    
+         <!-- Local -->
+	    <LinearLayout 
+	    	android:layout_width="0dp"
+	   	 	android:layout_height="wrap_content"
+	    	android:orientation="vertical"
+	    	android:gravity="center"
+	    	android:layout_weight="45">
+
+	        <TextView
+	            android:id="@+id/detailLitLocal"
+	            android:layout_width="match_parent"
+	            android:layout_height="50sp"
+	            android:gravity="center"
+	            android:paddingRight="15dp"
+	            android:textSize="15sp" />
+		        
+	        <EditText
+		         android:id="@+id/detailLocMarcador"
+		         android:layout_width="match_parent"
+		   		 android:layout_height="match_parent"
+		   		 android:gravity="center"
+		   		 android:inputType="number"
+		   		 android:textSize="100sp"/>
+	        
+	   	</LinearLayout>  
+        
+
+        <TextView
+         android:id="@+id/cteSeparador"
+         android:layout_width="0dp"
+   		 android:layout_height="match_parent"
+   		 android:gravity="center"
+   		 android:textSize="80sp"
+   		 android:paddingTop="50sp"
+   		 android:layout_weight="10"/>
+        
+		<!-- Visitante --> 
+        <LinearLayout 
+    		android:layout_width="0dp"
+   	 		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+    		android:gravity="center"
+    		android:layout_weight="45">
+		         <!-- Visitante -->
+		        <TextView
+		            android:id="@+id/detailLitVis"
+		          	android:layout_width="match_parent"
+		            android:layout_height="50sp"
+		            android:gravity="center"
+		            android:paddingLeft="15dp"
+		            android:textSize="15sp" />
+			        
+		        <EditText
+		         android:id="@+id/detailVisMarcador"
+		         android:layout_width="match_parent"
+		   		 android:layout_height="match_parent"
+		   		 android:gravity="center"
+		   		 android:inputType="number"
+		   		 android:textSize="100sp"/>
+			</LinearLayout>  
+ 			
+	 </LinearLayout> 
+	 
+    <!-- Tipo Partido -->
+        <Spinner
+        android:id="@+id/spinner_tipoPartido"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" 
+        android:gravity="center"
+        android:paddingTop="10sp"/>
+    
+    <!-- Register Button -->
+
+        <Button
+            android:id="@+id/btnActualizaResultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="10dip"
+            android:text="@string/updateResultado" />
+	       
+   <!-- Info Adicional -->	         
+		 <TextView
+	        android:id="@+id/detailInfoPartido"
+	        android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:gravity="center"
+    		android:background="@color/DarkGray"
+	     />
+	    
+	    <TextView
+	        android:id="@+id/detailInfoPartidoLong"
+	        android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:gravity="center"
+    		android:paddingTop="10sp"
+	     />
+            <!-- 
+	    <ImageView
+           	android:id="@+id/detailImgWeather"
+			android:layout_weight="10"
+           	android:layout_width="fill_parent"
+           	android:layout_height="fill_parent"
+           	android:contentDescription="@string/img_favorito"
+	      	android:gravity="right|center"
+	       />
+	    
+	    <ImageView
+           	android:id="@+id/detailImgGmaps"
+           	android:layout_weight="10"
+           	android:layout_width="fill_parent"
+      		android:layout_height="fill_parent"
+           	android:contentDescription="@string/img_favorito"
+      		android:gravity="right|center"
+	       />	
+	        -->
+	        
+
+        
+        <!-- Info oculta -->
+          <LinearLayout 
+            android:layout_weight="40"
+		    android:layout_width="wrap_content"
+		    android:layout_height="0dp"
+		    android:gravity="center"
+		    android:orientation="vertical">
+        
+	        <TextView
+	            android:id="@+id/detailCodLocal"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"/>
+
+	        <TextView
+	            android:id="@+id/detailCodVis"
+	            android:layout_height="wrap_content" 
+	            android:layout_width="wrap_content"/>
+			<TextView
+	            android:id="@+id/detailCodPar"
+	            android:layout_height="wrap_content" 
+	            android:layout_width="wrap_content"/>
+			
+			<TextView
+	            android:id="@+id/detailDescDeporte"
+	            android:layout_height="wrap_content" 
+	            android:layout_width="wrap_content"/>
+	           
+         </LinearLayout> 
+      
+     <TextView
+	        android:id="@+id/detailMsgRetorno"
+	        android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:gravity="center"
+    		android:layout_gravity="bottom"
+    		android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2" 
+	     />
+</LinearLayout>
+

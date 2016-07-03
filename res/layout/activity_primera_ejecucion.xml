@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/login_primera_ejecucion"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/inicio_field"
+    android:padding="10dp">
+    
+    <!--  Msg bienvenida  -->
+
+       <ImageView
+  		android:id="@+id/imageView1"
+  		android:layout_width="150dp"
+  		android:layout_height="150dp"
+  		android:src="@drawable/logo_hq" 
+  		android:layout_gravity="center"/>
+       
+       <TextView 
+        android:id="@+id/msgBienvenida2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:shadowColor="@color/LightGrey"
+        android:shadowDx="3"
+        android:shadowDy="-3"
+        android:shadowRadius="1.5"
+        android:textAlignment="center"
+        android:text="@string/msgBienvenida2"
+        android:paddingBottom="20dp"/>
+       
+       <include layout="@layout/region_spinner_big"/>
+    
+    <!-- Ok button -->
+          <Button android:id="@+id/btnOK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/btnOK"
+                android:padding="20dip"/>
+
+</LinearLayout>
+ 

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:padding="2dp"
+	    android:layout_height="40dp"
+	    android:orientation="horizontal"
+	    android:gravity="center"
+	    android:weightSum="100">
+	    
+	    	<!-- Grupo clasificacion -->
+	        <TextView
+	            android:id="@+id/ClasGrupo"
+	            android:layout_weight="1"
+	            android:layout_width="0dp"
+	            android:textSize="12sp"
+	       		android:layout_height="40dp"
+	       		android:gravity="center"
+	        />
+	
+	    	<!-- Posicion -->
+	        <TextView
+	            android:id="@+id/ClasPos"
+	            android:layout_weight="4"
+	            android:layout_width="0dp"
+	            android:textSize="10sp"
+	       		android:layout_height="40dp"
+	       		android:gravity="center"
+	        />
+	        
+	        <!-- Equipo -->
+	        <TextView
+	            android:id="@+id/ClasLitEquipo"
+	            android:layout_weight="39"
+	            android:layout_width="0dp"
+	            android:textSize="12sp"
+	       		android:layout_height="40dp"
+	       		android:gravity="center"
+	        />
+	        
+	        <!-- Puntos -->
+	        <TextView
+	            android:id="@+id/ClasPuntos"
+	            android:layout_weight="8"
+	            android:layout_width="0dp"
+	            android:textSize="12sp"
+	       		android:layout_height="40dp"
+	       		android:gravity="center"
+	        />
+	        
+	        <!-- Jugados -->
+	        <TextView
+	            android:id="@+id/ClasJugados"
+	            android:layout_weight="8"
+	            android:layout_width="0dp"
+	            android:textSize="12sp"
+	       		android:layout_height="40dp"
+	       		android:gravity="center"
+	        />
+	        
+	        <!-- Ganados -->
+	        <TextView
+	            android:id="@+id/ClasGanados"
+	            android:layout_weight="8"
+	            android:layout_width="0dp"
+	            android:textSize="12sp"
+	       		android:layout_height="40dp"
+	       		android:gravity="center"
+	        />
+	        
+	        <!-- Empatados -->
+	        <TextView
+	            android:id="@+id/ClasEmpatados"
+	            android:layout_weight="8"
+	            android:layout_width="0dp"
+	            android:textSize="12sp"
+	       		android:layout_height="40dp"
+	       		android:gravity="center"
+	        />
+	        
+	        <!-- Peridos -->
+	        <TextView
+	            android:id="@+id/ClasPerdidos"
+	            android:layout_weight="8"
+	            android:layout_width="0dp"
+	            android:textSize="12sp"
+	       		android:layout_height="40dp"
+	       		android:gravity="center"
+	        />
+	        
+     		<!-- Goles Favor -->
+	        <TextView
+	            android:id="@+id/ClasGolesFavor"
+	            android:layout_weight="8"
+	            android:layout_width="0dp"
+	            android:textSize="12sp"
+	       		android:layout_height="40dp"
+	       		android:gravity="center"
+	        />
+	        
+	        <!-- Goles Contra -->
+	        <TextView
+	            android:id="@+id/ClasGolesContra"
+	            android:layout_weight="8"
+	            android:layout_width="0dp"
+	            android:textSize="12sp"
+	       		android:layout_height="40dp"
+	       		android:gravity="center"
+	        />
+	        
+	        
+</LinearLayout>
+

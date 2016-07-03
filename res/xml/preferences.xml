@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+            
+    <PreferenceCategory
+            android:title="@string/setting_config">
+                
+        <ListPreference
+                android:key="list_preference"
+                android:title="@string/setting_region"
+                android:summary="@string/setting_title_region"
+                android:entries="@array/setting_entries_list_region"
+                android:entryValues="@array/setting_entryvalues_list_region"
+                android:dialogTitle="@string/setting_region" />
+     
+    </PreferenceCategory>
+ 
+    
+</PreferenceScreen> 

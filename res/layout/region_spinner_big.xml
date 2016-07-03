@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/spinner_container"
+       android:layout_width="match_parent"
+       android:layout_height="80dp"
+       android:layout_gravity="bottom|center"
+       android:gravity="bottom|center"
+       android:layout_alignParentBottom="true">	   
+        
+    <ImageView
+      	android:id="@+id/imgRegion"
+      	android:layout_width="80dp"
+ 		android:layout_height="80dp"
+ 		android:layout_gravity="bottom"
+ 		android:gravity="center"
+ 		android:contentDescription="@string/img_comunidad"/>
+    <Spinner
+        android:id="@+id/spinner_region"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"/>
+
+</LinearLayout>

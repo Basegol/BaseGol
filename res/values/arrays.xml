@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_entries_list_region">
+        <item>ANDALUCÍA</item>
+        <item>ARAGÓN</item>
+        <item>CANTABRIA</item>
+        <item>CASTILLA Y LEÓN</item>
+        <item>CASTILLA - LA MANCHA</item>
+        <item>CATALUÑA</item>
+        <item>CEUTA</item>
+        <item>COMUNIDAD DE MADRID</item>
+        <item>COMUNIDAD VALENCIANA</item>
+        <item>EXTREMADURA</item>
+        <item>GALICIA</item>
+        <item>ISLAS BALEARES</item>
+        <item>ISLAS CANARIAS</item>
+        <item>LA RIOJA</item>
+        <item>MELILLA</item>
+        <item>NAVARRA</item>
+        <item>PAÍS VASCO</item>
+        <item>PRINCIPADO DE ASTURIAS</item>
+        <item>REGIÓN DE MURCIA</item>
+    </string-array>
+     <string-array name="setting_entryvalues_list_region">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </string-array>
+    
+        
+     <string-array name="setting_entries_tipo_partido">
+        <item>Selecciona...</item>
+        <item>Finalizado</item>
+        <item>Aplazado</item>
+        <item>Suspendido</item>
+        <item>Cancelado</item>
+        <item>Descansa</item>
+        <item>Local Retirado</item>
+        <item>Visitante Retirado</item>
+        <item>Local y Visitante Retirado</item>
+        <item>Partido en Juego</item>
+        <item>Local no se Presenta</item>
+        <item>Visitante no se Presenta</item>
+        <item>Partido no Disputado</item>
+
+    </string-array>
+        <string-array name="setting_entryvalues_tipo_partido">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+        
+        
+    <string-array name="setting_entries_list_sexo">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+        <string-array name="setting_entryvalues_list_sexo">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+     
+        
+    <string-array name="marcador_keys">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </string-array>
+    <string-array name="marcador_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </string-array>
+        
+</resources>

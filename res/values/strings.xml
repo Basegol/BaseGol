@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BaseGol</string>
+    <string name="app_name_upper">BASEGOL</string>
+   
+    
+    
+    <!-- Preferencias -->
+    <string name="setting_config">Configuración de la aplicación</string>
+    
+    <string name="setting_region">Región</string>
+    <string name="setting_sexo">Sexo</string>
+    
+     <string name="setting_title_region">Región categorías inferiores</string> 
+     <string name="setting_title_sexo">Deporte masculino / femenino</string>
+    
+     
+     <!-- Cabecera -->
+      <string name="cab_settings">Preferencias</string>
+      <string name="cab_acceso">Acceso</string>
+      <string name="cab_registro">Registro</string>
+      <string name="cab_entrar">Entrar</string>
+      <string name="cab_screenshot">Captura Pantalla</string>
+      <string name="cab_buscar">Buscar</string>
+      <string name="cab_bienvenida">BASEGOL</string>
+
+      
+      <!-- Login -->
+      
+            <string name="log_email">Email</string>
+            <string name="log_usuario">Usuario</string>
+            <string name="log_usuariooemail">Usuario / Email</string>
+            <string name="log_pass">Contraseña</string>
+            <string name="log_pass2">Repetir Contraseña</string>
+            <string name="log_btn_login">Entrar</string>
+            <string name="log_msg_registro">¿Nuevo en BaseGol? Registrate aquí</string>
+            <string name="log_msg_registro2">¡Regístrate!</string>
+            <string name="log_msg_registrado">¿Ya tienes cuenta? Entra aquí</string>
+            <string name="user_profile">Perfil de Usuario</string>
+            <string name="log_btn_enviar_estadisticas">Enviar estadisticas</string>
+      
+      
+     <!-- Resultados -->
+     <string name="main_no_items">No hay resultados disponibles</string>
+     
+     <!-- Imagenes -->
+     <string name="img_favorito">Favorito</string>
+     <string name="img_pais">Pais</string>
+     <string name="img_comunidad">Comunidad</string>
+     
+     <!-- Partidos -->
+     <string name="updateResultado">Actualizar Resultado</string>
+     <string name="buscar">Buscar</string>
+     <string name="img_Logo">Logo BaseGol</string>
+     <string name="img_AppStore">Google Play Store</string>
+     
+     <!-- Links -->
+     <string name="linkCzrWebsite">http://www.basegol.com</string>
+     
+     <!-- Botones -->
+     <string name="btnOK">¡COMENZAR!</string>
+     
+     <!-- Mensajes -->
+     <string name="msgBienvenida">BASEGOL</string>
+     <string name="msgBienvenida2">Por favor seleccione su comunidad</string>
+     
+            
+</resources>

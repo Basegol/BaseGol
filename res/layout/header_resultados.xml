@@ -1,0 +1,19 @@
+<!-- Header -->
+	  <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	       android:id="@+id/header_resultados_container"
+	       android:layout_width="fill_parent"
+	       android:layout_height="30dp"
+	       android:layout_gravity="top|center"
+	       android:gravity="top|center">	   
+	        
+           <TextView
+            android:id="@+id/headerResultado"
+            android:layout_width="fill_parent"
+       		android:layout_height="match_parent"
+       		android:layout_gravity="top|center"
+	       	android:gravity="top|center"
+       		android:textColor="@color/White"
+       		android:background="@color/Black"
+    				 />
+
+	</LinearLayout>
